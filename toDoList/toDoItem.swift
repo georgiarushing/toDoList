@@ -7,8 +7,9 @@
 
 import Foundation
 
-class toDoItem
+class toDoItem: Identifiable
 {
+    var id = UUID()
     var title = ""
     var isImportant = false
     
